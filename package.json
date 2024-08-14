@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "format": "prettier --write .",
+    "format": "prettier --write 'src/**/*.{js,ts,jsx,tsx,json,css,scss,md}'",
     "serve:ssr:control-hub": "node dist/control-hub/server/server.mjs"
   },
   "lint-staged": {
